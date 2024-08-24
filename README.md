@@ -99,3 +99,20 @@ Distribution: Most data points are clustered near the center, suggesting that th
 In conclusion 
 Conclusion: The time series plot of GHI illustrates the expected seasonal variations in solar irradiance, with higher values in the summer and lower values in the winter. The daily variability is also evident, indicating the influence of weather patterns on solar radiation. This plot provides valuable insights for understanding the availability of solar energy throughout the year and can help in the planning and optimization of solar energy systems. Strong correlations among irradiance measures (GHI, DNI, DHI) and module measurements (ModA, ModB) indicate that the sensors are accurately capturing solar radiation. Temperature and humidity are inversely related, which could have implications for solar panel efficiency. The strong correlations within wind-related variables suggest that wind conditions tend to change together, which could impact the structural integrity of solar installations.
 The time series plot of GHI illustrates the expected seasonal variations in solar irradiance, with higher values in the summer and lower values in the winter. The daily variability is also evident, indicating the influence of weather patterns on solar radiation. This plot provides valuable insights for understanding the availability of solar energy throughout the year and can help in the planning and optimization of solar energy systems.
+
+
+![alt text](image-5.png)
+Fig 6:  bubble chart visualizes the relationship among variables
+
+This bubble chart visualizes the relationship between three variables:
+1. Global Horizontal Irradiance (GHI) on the x-axis.
+2. Ambient Temperature (Tamb) on the y-axis.
+3.  Wind Speed (WS) indicated by color on the right-side color bar.
+4. Relative Humidity (RH) represented by the size of the bubbles.
+
+Interpretation: Global Horizontal Irradiance (GHI): As GHI increases along the x-axis, we observe varying temperatures and bubble sizes. Higher GHI often corresponds with higher temperatures but not always.
+Ambient Temperature (Tamb): This is plotted on the y-axis. The temperature ranges from about 10°C to 45°C. The spread of bubbles indicates that higher temperatures are more frequently associated with a wider range of GHI values.
+Wind Speed (WS): The color of the bubbles represents wind speed, with lighter colors (toward yellow) indicating higher wind speeds and darker colors (toward purple) indicating lower wind speeds. It seems that higher wind speeds are generally found in a specific GHI and Tamb range.
+
+Relative Humidity (RH): The size of the bubbles represents RH. Larger bubbles signify higher relative humidity, while smaller bubbles indicate lower RH. The larger bubbles (higher RH) are concentrated in specific areas, potentially indicating conditions where both GHI and Tamb are favorable for higher humidity levels.
+This visualization likely aims to explore how GHI, ambient temperature, wind speed, and relative humidity interact with each other, which could be useful in understanding weather patterns or optimizing renewable energy sources like solar power.
